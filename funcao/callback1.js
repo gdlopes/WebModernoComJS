@@ -1,7 +1,6 @@
 const fabricantes = ["Gol", "Ford", "Audi"];
 
-
-function imprimir(nome, indice) {	
+function imprimir(nome, indice) {
 	console.log(`${indice + 1}. ${nome}`);
 };
 

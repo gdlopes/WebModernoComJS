@@ -8,7 +8,6 @@ class Pessoa {
 	}
 }
 
-
 const pessoa1 = new Pessoa('Gustavo');
 pessoa1.falar();
 

@@ -15,7 +15,7 @@ const sub = function(x, y) {
 
 /*
 *named function expression
-*vantage: a named function can help 
+*vantage: a named function can help
 *you when youre debbuging the code,
 *cause it will return the name of the
 *function in the logs

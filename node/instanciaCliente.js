@@ -20,6 +20,6 @@ ContadorC.inc();
 ContadorC.inc();
 
 // aqui o valor de contadorD não vai ser o mesmo
-// de contadorC, pois em cada um foi criado uma 
+// de contadorC, pois em cada um foi criado uma
 // nova instancia a partir da funcao factory
 console.log(ContadorC.valor, ContadorD.valor);

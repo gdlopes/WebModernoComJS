@@ -30,7 +30,7 @@ const escola = [
 const getNotasDoAluno = aluno => aluno.nota;
 const getNotasDaTurma = turma => turma.alunos.map(getNotasDoAluno);
 
-console.log(escola.map(getNotasDaTurma)); 
+console.log(escola.map(getNotasDaTurma));
 
 Array.prototype.flatMap = function(callback) {
 	return Array.prototype.concat.apply([], this.map(callback))

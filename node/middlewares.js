@@ -11,7 +11,7 @@ const passo2 = (contexto, next) => {
 };
 
 const passo3 = contexto => {
-	contexto.valor3 = 'Mid3'; 
+	contexto.valor3 = 'Mid3';
 };
 
 const exec = (contexto, ...middlewares) => {

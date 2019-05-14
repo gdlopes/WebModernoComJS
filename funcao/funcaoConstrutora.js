@@ -5,7 +5,7 @@ function Carro(velMax = 200, delta = 5) {
 		if(velAtual < velMax) {
       velAtual += delta;
     } else {
-      velAtual = velMax;  
+      velAtual = velMax;
     }
 	};
 

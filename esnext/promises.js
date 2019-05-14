@@ -9,4 +9,4 @@ function falarDepoisDe(segundos, frase) {
 falarDepoisDe(3, 'A Promise funciona !')
 	.then(frase => frase.concat('!!'))
 	.then(novaFrase => console.log(novaFrase));
-	
+

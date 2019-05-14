@@ -8,4 +8,3 @@ MinhaApp.nome = 'Sistema do Gustavo';
 // mas usei Object.freeze para não
 // permitir alteracoes no objeto global
 console.log(MinhaApp.nome);
-

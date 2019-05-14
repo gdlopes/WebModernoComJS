@@ -6,7 +6,6 @@ function criarProdutos(nome, preco) {
 	};
 };
 
-
 const prod1 = criarProdutos('jaqueta', 175);
 const prod2 = criarProdutos('camisa', 50);
 const prod3 = criarProdutos('tenis', 300);

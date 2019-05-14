@@ -1,7 +1,7 @@
 const url = 'http://files.cod3r.com.br/curso-js/funcionarios.json';
 const axios = require('axios');
 
-const mulheres = funcionario => funcionario.genero === 'F'; 
+const mulheres = funcionario => funcionario.genero === 'F';
 const chinesas = funcionario => funcionario.pais === 'China';
 const menorSalario = (func, funcAtual) => {
 	return func.salario < funcAtual.salario ? func : funcAtual;
